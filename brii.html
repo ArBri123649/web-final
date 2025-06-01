@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brii | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="brii.css">
+  <link rel="stylesheet" href="brii.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <div class="profile-pic">
+        <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/425805266_7451510904913804_8553247019752901805_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGXo-ZPPI9TwTj07o0K0Hj_dVwpg9kgX_B1XCmD2SBf8LmkbjrwPpe8TIDisVTRksaVg9eV0flCWZe5bp5PUL38&_nc_ohc=v3dQ3ghJqywQ7kNvwGoIBD_&_nc_oc=Adl33MBjBz8-wDWoquL_oZ8i8-WiZogz5NEtN0S32iW9OufKR0O8-XGdTO7T-KgjxVc&_nc_zt=23&_nc_ht=scontent.fmnl17-3.fna&_nc_gid=FZweZbLD8jNHVTOZQyoPuw&oh=00_AfLZ2kdccN5myAC3FU_Fu4t1qBPVIi3YAgo4xPKNfKifOQ&oe=683F2FE7" alt="Arvin profile picture">
+      </div>
+      <div>
+        <h1>Arvin</h1>
+        <h2>Web Developer</h2>
+        <nav>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="work">
+    <div class="container">
+      <h3 class="section-title">Showcase of My Work</h3>
+      <div class="projects">
+        <div class="project-card">
+          <img src="1pic.jpg" alt="Project 1 Screenshot">
+          <h4>Vibrant Portfolio</h4>
+          <p>A unique, responsive portfolio template using HTML, CSS, and JavaScript. Features animations and a clean layout.</p>
+          <a href="1pic.jpg" target="OPEN"></a>
+        </div>
+        <div class="project-card">
+          <img src="2pic.jpg" alt="Project 2 Screenshot">
+          <h4>Taskify App</h4>
+          <p>A To-Do app with drag & drop, built with React and Firebase. Real-time sync and modern UI.</p>
+          <a href="2pic.jpg" target="OPEN"></a>
+        </div>
+        <div class="project-card">
+          <img src="color.jpg" alt="Project 3 Screenshot">
+          <h4>ColorSplash Landing</h4>
+          <p>A landing page for a color palette generator. Responsive, animated, and vibrant.</p>
+          <a href="color.jpg" target="OPEN"></a>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about-flex">
+      <div class="about-col">
+        <h3 class="section-title">About Me</h3>
+        <ul class="info-list">
+          <li><strong>Name:</strong> Arvin Abrigonda</li>
+          <li><strong>Location:</strong> Mabini, Batangas</li>
+          <li><strong>Email:</strong> <a href="mailto:arvinabrigonda@email.com">arvinabrigonda@email.com</a></li>
+        </ul>
+        <h4>Social Links</h4>
+        <div class="social-links">
+         
+          <a href="https://www.facebook.com/share/15Px7YQcM2/" aria-label="Facebook"><img src="https://www.facebook.com/paano.monasabihahah/" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="about-col">
+        <h4>Skills</h4>
+        <div class="skills-bar">
+          <div>
+            <span>HTML5</span>
+            <div class="bar"><div class="progress html"></div></div>
+          </div>
+          <div>
+            <span>CSS3</span>
+            <div class="bar"><div class="progress css"></div></div>
+          </div>
+          <div>
+            <span>JavaScript</span>
+            <div class="bar"><div class="progress js"></div></div>
+          </div>
+          <div>
+            <span>React</span>
+            <div class="bar"><div class="progress react"></div></div>
+          </div>
+        </div>
+        <h4>Experience</h4>
+        <ul class="exp-list">
+          <li><strong>Web Developer</strong> @ VisualStudio (2022 - Present)</li>
+          
+        </ul>
+        <h4>Achievements</h4>
+        <ul class="achiev-list">
+          <li>Awards of Completion Java Fundamentals</li>
+          <li>Awards of Completion System Administration</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h3 class="section-title">Contact Me</h3>
+      <form id="contactForm" autocomplete="off">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+        <div id="formMsg"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 Ar Bri</span>
+    </div>
+  </footer>
+  <script src="brii.js"></script>
+</body>
+</html>
